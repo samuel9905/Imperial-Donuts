@@ -1,0 +1,262 @@
+*{
+    margin:0px;
+    padding:0px;
+    max-width: 100%;
+    /*overflow-x: hidden;*/
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.strapline-container {
+    width: 90vw;
+    height: 85vh;
+    border: 2px solid rgb(207, 19, 107);
+    margin: auto auto;
+    text-align: center;
+    background-image: url("./../image/donuts.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.main-strapling{
+    color: rgb(207, 19, 107);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+.second-strapling{
+    color: #ffffdd;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+
+}
+
+.about-section {
+    width: 100vw;
+    height: 95vh;
+}
+
+.about-container {
+    width: 85vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45vw;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box {
+    width: 40vw;
+    height: 200px;
+    margin-left: 6%;
+}
+
+
+.top-row, .bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-one {
+    width: 50%;
+    height: 240px;
+    border-radius: 3%;
+    background-image: url("./../image/dd.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-two {
+    width: 50%;
+    height: 240px;
+    border-radius: 3%;
+    background-image: url("./../image/dd1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-three {
+    width: 50%;
+    height: 240px;
+    border-radius: 3%;
+    background-image: url("./../image/dd2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-four {
+    width: 50%;
+    height: 240px;
+    border-radius: 3%;
+    background-image: url("./../image/image2 (3).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.donuts-section {
+    width: 100vw;
+    padding: 30px 0px;
+}
+
+.image-container{
+    width: 100vw;
+}
+
+.first-row, .second-row, .third-row {
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.grid-image {
+    border-radius: 5px;
+    width: 30%;
+    height: 310px;
+    margin: 15px auto;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image:hover {
+    opacity: 0.80;
+}
+
+#donut-one{
+    background-image: url("./../image/donuts1.jpg");
+}
+
+#donut-two{
+    background-image: url("./../image/donuts3.jpg");
+}
+
+#donut-three{
+    background-image: url("./../image/donuts4.jpg");
+}
+
+#donut-four{
+    background-image: url("./../image/donuts2.jpg");
+}
+
+#donut-five{
+    background-image: url("./../image/donuts5.jpg");
+}
+
+#donut-six{
+    background-image: url("./../image/donuts6.jpg");
+}
+
+#donut-seven{
+    background-image: url("./../image/donuts7.jpg");
+}
+
+#donut-eight{
+    background-image: url("./../image/donuts8.jpg");
+}
+
+#donut-nine{
+    background-image: url("./../image/donuts9.jpg");
+}
+
+.store-section {
+    width: 100vw;
+
+}
+
+.store-container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+.h4 {
+    font-size: 150%;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: #ffffdd;
+}
+
+.contact-title {
+    padding: 25px 0px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.email {
+    font-size: 130%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media-icon {
+    margin: 0px 7.5px;
+}
